@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  header .intro {
+    max-width: 50%;
+  }
+  
+  header .photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  #about h2 {
+    color: #2c3e50;
+  }
+  
+  #about ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #about li {
+    font-size: 16px;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 40px;
+    background-color: #ecf0f1;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project a {
+    color: #3498db;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 10px;
+    background-color: #2c3e50;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
